@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños Amor!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-circles">
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+    </div>
+
+    <main class="container">
+        <div class="card" id="card">
+            <div class="envelope" id="envelope">
+                <div class="heart">❤️</div>
+                <p>Toca para abrir</p>
+            </div>
+            
+            <div class="content hidden" id="content">
+                <h1>¡Felices 19, Princesa! 🎂</h1>
+                <div class="letter-text">
+                    <p>Desde que llegaste a mi vida...</p>
+                    <p>Eres la persona más especial que conozco y hoy celebro tu vida. Espero que estos 19 años sean el inicio de la mejor etapa de tu vida.</p>
+                    <p><strong>Te amo muchísimo.</strong></p>
+                </div>
+                <button onclick="confettiEffect()">¡Sorpresa!</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
